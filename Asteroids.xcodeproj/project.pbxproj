@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D43A9015A256A700C2DCDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A8F15A256A700C2DCDF /* UIKit.framework */; };
+		A3D43A9215A256A700C2DCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9115A256A700C2DCDF /* Foundation.framework */; };
+		A3D43A9415A256A700C2DCDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */; };
+		A3D43A9A15A256A700C2DCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D43A9815A256A700C2DCDF /* InfoPlist.strings */; };
+		A3D43A9C15A256A700C2DCDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43A9B15A256A700C2DCDF /* main.m */; };
+		A3D43AA015A256A700C2DCDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43A9F15A256A700C2DCDF /* AppDelegate.m */; };
+		A3D43AA315A256A700C2DCDF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D43AA115A256A700C2DCDF /* MainStoryboard_iPhone.storyboard */; };
+		A3D43AA615A256A700C2DCDF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D43AA415A256A700C2DCDF /* MainStoryboard_iPad.storyboard */; };
+		A3D43AA915A256A700C2DCDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43AA815A256A700C2DCDF /* ViewController.m */; };
+		A3D43AB115A256A700C2DCDF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43AB015A256A700C2DCDF /* SenTestingKit.framework */; };
+		A3D43AB215A256A700C2DCDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A8F15A256A700C2DCDF /* UIKit.framework */; };
+		A3D43AB315A256A700C2DCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9115A256A700C2DCDF /* Foundation.framework */; };
+		A3D43ABB15A256A700C2DCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D43AB915A256A700C2DCDF /* InfoPlist.strings */; };
+		A3D43ABE15A256A700C2DCDF /* AsteroidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43ABD15A256A700C2DCDF /* AsteroidsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D43AB415A256A700C2DCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D43A8215A256A700C2DCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D43A8A15A256A700C2DCDF;
+			remoteInfo = Asteroids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D43A8B15A256A700C2DCDF /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D43A8F15A256A700C2DCDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3D43A9115A256A700C2DCDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3D43A9715A256A700C2DCDF /* Asteroids-Info.plist */ = {isa = PBXFileReference; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
+		A3D43A9915A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3D43A9B15A256A700C2DCDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3D43A9D15A256A700C2DCDF /* Asteroids-Prefix.pch */ = {isa = PBXFileReference; path = "Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		A3D43A9E15A256A700C2DCDF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3D43A9F15A256A700C2DCDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3D43AA215A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A3D43AA515A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A3D43AA715A256A700C2DCDF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A3D43AA815A256A700C2DCDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3D43AAF15A256A700C2DCDF /* AsteroidsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D43AB015A256A700C2DCDF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A3D43AB815A256A700C2DCDF /* AsteroidsTests-Info.plist */ = {isa = PBXFileReference; path = "AsteroidsTests-Info.plist"; sourceTree = "<group>"; };
+		A3D43ABA15A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3D43ABC15A256A700C2DCDF /* AsteroidsTests.h */ = {isa = PBXFileReference; path = AsteroidsTests.h; sourceTree = "<group>"; };
+		A3D43ABD15A256A700C2DCDF /* AsteroidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsteroidsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D43A8815A256A700C2DCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43A9015A256A700C2DCDF /* UIKit.framework in Frameworks */,
+				A3D43A9215A256A700C2DCDF /* Foundation.framework in Frameworks */,
+				A3D43A9415A256A700C2DCDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D43AAB15A256A700C2DCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43AB115A256A700C2DCDF /* SenTestingKit.framework in Frameworks */,
+				A3D43AB215A256A700C2DCDF /* UIKit.framework in Frameworks */,
+				A3D43AB315A256A700C2DCDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D43A8015A256A700C2DCDF = {
+			isa = PBXGroup;
+			children = (
+				A3D43A9515A256A700C2DCDF /* Asteroids */,
+				A3D43AB615A256A700C2DCDF /* AsteroidsTests */,
+				A3D43A8E15A256A700C2DCDF /* Frameworks */,
+				A3D43A8C15A256A700C2DCDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D43A8C15A256A700C2DCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43A8B15A256A700C2DCDF /* Asteroids.app */,
+				A3D43AAF15A256A700C2DCDF /* AsteroidsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D43A8E15A256A700C2DCDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43A8F15A256A700C2DCDF /* UIKit.framework */,
+				A3D43A9115A256A700C2DCDF /* Foundation.framework */,
+				A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */,
+				A3D43AB015A256A700C2DCDF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3D43A9515A256A700C2DCDF /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43A9E15A256A700C2DCDF /* AppDelegate.h */,
+				A3D43A9F15A256A700C2DCDF /* AppDelegate.m */,
+				A3D43AA115A256A700C2DCDF /* MainStoryboard_iPhone.storyboard */,
+				A3D43AA415A256A700C2DCDF /* MainStoryboard_iPad.storyboard */,
+				A3D43AA715A256A700C2DCDF /* ViewController.h */,
+				A3D43AA815A256A700C2DCDF /* ViewController.m */,
+				A3D43A9615A256A700C2DCDF /* Supporting Files */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		A3D43A9615A256A700C2DCDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43A9715A256A700C2DCDF /* Asteroids-Info.plist */,
+				A3D43A9815A256A700C2DCDF /* InfoPlist.strings */,
+				A3D43A9B15A256A700C2DCDF /* main.m */,
+				A3D43A9D15A256A700C2DCDF /* Asteroids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D43AB615A256A700C2DCDF /* AsteroidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43ABC15A256A700C2DCDF /* AsteroidsTests.h */,
+				A3D43ABD15A256A700C2DCDF /* AsteroidsTests.m */,
+				A3D43AB715A256A700C2DCDF /* Supporting Files */,
+			);
+			path = AsteroidsTests;
+			sourceTree = "<group>";
+		};
+		A3D43AB715A256A700C2DCDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43AB815A256A700C2DCDF /* AsteroidsTests-Info.plist */,
+				A3D43AB915A256A700C2DCDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D43A8A15A256A700C2DCDF /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D43AC115A256A700C2DCDF /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				A3D43A8715A256A700C2DCDF /* Sources */,
+				A3D43A8815A256A700C2DCDF /* Frameworks */,
+				A3D43A8915A256A700C2DCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = A3D43A8B15A256A700C2DCDF /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D43AAE15A256A700C2DCDF /* AsteroidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D43AC415A256A700C2DCDF /* Build configuration list for PBXNativeTarget "AsteroidsTests" */;
+			buildPhases = (
+				A3D43AAA15A256A700C2DCDF /* Sources */,
+				A3D43AAB15A256A700C2DCDF /* Frameworks */,
+				A3D43AAC15A256A700C2DCDF /* Resources */,
+				A3D43AAD15A256A700C2DCDF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D43AB515A256A700C2DCDF /* PBXTargetDependency */,
+			);
+			name = AsteroidsTests;
+			productName = AsteroidsTests;
+			productReference = A3D43AAF15A256A700C2DCDF /* AsteroidsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D43A8215A256A700C2DCDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A3D43A8515A256A700C2DCDF /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3D43A8015A256A700C2DCDF;
+			productRefGroup = A3D43A8C15A256A700C2DCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D43A8A15A256A700C2DCDF /* Asteroids */,
+				A3D43AAE15A256A700C2DCDF /* AsteroidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D43A8915A256A700C2DCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43A9A15A256A700C2DCDF /* InfoPlist.strings in Resources */,
+				A3D43AA315A256A700C2DCDF /* MainStoryboard_iPhone.storyboard in Resources */,
+				A3D43AA615A256A700C2DCDF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D43AAC15A256A700C2DCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43ABB15A256A700C2DCDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3D43AAD15A256A700C2DCDF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D43A8715A256A700C2DCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43A9C15A256A700C2DCDF /* main.m in Sources */,
+				A3D43AA015A256A700C2DCDF /* AppDelegate.m in Sources */,
+				A3D43AA915A256A700C2DCDF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D43AAA15A256A700C2DCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D43ABE15A256A700C2DCDF /* AsteroidsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D43AB515A256A700C2DCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D43A8A15A256A700C2DCDF /* Asteroids */;
+			targetProxy = A3D43AB415A256A700C2DCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D43A9815A256A700C2DCDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D43A9915A256A700C2DCDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3D43AA115A256A700C2DCDF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D43AA215A256A700C2DCDF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D43AA415A256A700C2DCDF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D43AA515A256A700C2DCDF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D43AB915A256A700C2DCDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D43ABA15A256A700C2DCDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D43ABF15A256A700C2DCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D43AC015A256A700C2DCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D43AC215A256A700C2DCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3D43AC315A256A700C2DCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3D43AC515A256A700C2DCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "AsteroidsTests/AsteroidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A3D43AC615A256A700C2DCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "AsteroidsTests/AsteroidsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D43A8515A256A700C2DCDF /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D43ABF15A256A700C2DCDF /* Debug */,
+				A3D43AC015A256A700C2DCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D43AC115A256A700C2DCDF /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D43AC215A256A700C2DCDF /* Debug */,
+				A3D43AC315A256A700C2DCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D43AC415A256A700C2DCDF /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D43AC515A256A700C2DCDF /* Debug */,
+				A3D43AC615A256A700C2DCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D43A8215A256A700C2DCDF /* Project object */;
+}
