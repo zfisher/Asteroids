@@ -10,11 +10,15 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+@synthesize window = _window, game = _game;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
+    
+    _game = [Game new];
+    [_game newGame];
+    
     return YES;
 }
 							

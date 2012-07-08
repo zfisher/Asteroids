@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A313E02315A4FC78004D1C99 /* GameElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A313E02215A4FC78004D1C99 /* GameElement.m */; };
+		A36047B115A2916C0050C6E8 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A36047B015A2916C0050C6E8 /* Bullet.m */; };
 		A3D43A9015A256A700C2DCDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A8F15A256A700C2DCDF /* UIKit.framework */; };
 		A3D43A9215A256A700C2DCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9115A256A700C2DCDF /* Foundation.framework */; };
 		A3D43A9415A256A700C2DCDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */; };
@@ -21,6 +23,16 @@
 		A3D43AB315A256A700C2DCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D43A9115A256A700C2DCDF /* Foundation.framework */; };
 		A3D43ABB15A256A700C2DCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D43AB915A256A700C2DCDF /* InfoPlist.strings */; };
 		A3D43ABE15A256A700C2DCDF /* AsteroidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43ABD15A256A700C2DCDF /* AsteroidsTests.m */; };
+		A3D43AC915A2587D00C2DCDF /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43AC815A2587D00C2DCDF /* GameView.m */; };
+		A3D43AD115A25BE200C2DCDF /* ship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3D43AD015A25BE200C2DCDF /* ship.jpg */; };
+		A3D43AD415A2606300C2DCDF /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43AD315A2606300C2DCDF /* UIImage+Additions.m */; };
+		A3D43AD715A2621700C2DCDF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43AD615A2621700C2DCDF /* Game.m */; };
+		A3D43ADA15A2658A00C2DCDF /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D43AD915A2658A00C2DCDF /* Asteroid.m */; };
+		AC2D69B915A8F1890060B368 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2D69B815A8F1880060B368 /* CoreMotion.framework */; };
+		AC2D69BC15A8F97D0060B368 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2D69BB15A8F97D0060B368 /* Ship.m */; };
+		AC2D69C715A91D260060B368 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D69C615A91D260060B368 /* explosion.png */; };
+		AC2D69C915A91EF50060B368 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D69C815A91EF50060B368 /* asteroid.png */; };
+		ACB1223515A808760002A761 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB1223415A808760002A761 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +46,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A313E02115A4FC78004D1C99 /* GameElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameElement.h; sourceTree = "<group>"; };
+		A313E02215A4FC78004D1C99 /* GameElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameElement.m; sourceTree = "<group>"; };
+		A36047AF15A2916C0050C6E8 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		A36047B015A2916C0050C6E8 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
 		A3D43A8B15A256A700C2DCDF /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D43A8F15A256A700C2DCDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D43A9115A256A700C2DCDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3D43A9715A256A700C2DCDF /* Asteroids-Info.plist */ = {isa = PBXFileReference; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
+		A3D43A9715A256A700C2DCDF /* Asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
 		A3D43A9915A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3D43A9B15A256A700C2DCDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3D43A9D15A256A700C2DCDF /* Asteroids-Prefix.pch */ = {isa = PBXFileReference; path = "Asteroids-Prefix.pch"; sourceTree = "<group>"; };
-		A3D43A9E15A256A700C2DCDF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3D43A9D15A256A700C2DCDF /* Asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		A3D43A9E15A256A700C2DCDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3D43A9F15A256A700C2DCDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3D43AA215A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A3D43AA515A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A3D43AA715A256A700C2DCDF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A3D43AA715A256A700C2DCDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A3D43AA815A256A700C2DCDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3D43AAF15A256A700C2DCDF /* AsteroidsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D43AB015A256A700C2DCDF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A3D43AB815A256A700C2DCDF /* AsteroidsTests-Info.plist */ = {isa = PBXFileReference; path = "AsteroidsTests-Info.plist"; sourceTree = "<group>"; };
+		A3D43AB815A256A700C2DCDF /* AsteroidsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsteroidsTests-Info.plist"; sourceTree = "<group>"; };
 		A3D43ABA15A256A700C2DCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3D43ABC15A256A700C2DCDF /* AsteroidsTests.h */ = {isa = PBXFileReference; path = AsteroidsTests.h; sourceTree = "<group>"; };
+		A3D43ABC15A256A700C2DCDF /* AsteroidsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsteroidsTests.h; sourceTree = "<group>"; };
 		A3D43ABD15A256A700C2DCDF /* AsteroidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsteroidsTests.m; sourceTree = "<group>"; };
+		A3D43AC715A2587D00C2DCDF /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		A3D43AC815A2587D00C2DCDF /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		A3D43AD015A25BE200C2DCDF /* ship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ship.jpg; sourceTree = "<group>"; };
+		A3D43AD215A2606200C2DCDF /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		A3D43AD315A2606300C2DCDF /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		A3D43AD515A2621700C2DCDF /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		A3D43AD615A2621700C2DCDF /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		A3D43AD815A2658A00C2DCDF /* Asteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
+		A3D43AD915A2658A00C2DCDF /* Asteroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asteroid.m; sourceTree = "<group>"; };
+		AC2D69B815A8F1880060B368 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		AC2D69BA15A8F97D0060B368 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		AC2D69BB15A8F97D0060B368 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		AC2D69C615A91D260060B368 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		AC2D69C815A91EF50060B368 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		ACB1223215A804080002A761 /* Asteroids.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Asteroids.entitlements; sourceTree = "<group>"; };
+		ACB1223415A808760002A761 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2D69B915A8F1890060B368 /* CoreMotion.framework in Frameworks */,
+				ACB1223515A808760002A761 /* QuartzCore.framework in Frameworks */,
 				A3D43A9015A256A700C2DCDF /* UIKit.framework in Frameworks */,
 				A3D43A9215A256A700C2DCDF /* Foundation.framework in Frameworks */,
 				A3D43A9415A256A700C2DCDF /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A313E02515A4FCF8004D1C99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3D43AD515A2621700C2DCDF /* Game.h */,
+				A3D43AD615A2621700C2DCDF /* Game.m */,
+				A313E02115A4FC78004D1C99 /* GameElement.h */,
+				A313E02215A4FC78004D1C99 /* GameElement.m */,
+				AC2D69BA15A8F97D0060B368 /* Ship.h */,
+				AC2D69BB15A8F97D0060B368 /* Ship.m */,
+				A36047AF15A2916C0050C6E8 /* Bullet.h */,
+				A36047B015A2916C0050C6E8 /* Bullet.m */,
+				A3D43AD815A2658A00C2DCDF /* Asteroid.h */,
+				A3D43AD915A2658A00C2DCDF /* Asteroid.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A3D43A8015A256A700C2DCDF = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +153,8 @@
 		A3D43A8E15A256A700C2DCDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC2D69B815A8F1880060B368 /* CoreMotion.framework */,
+				ACB1223415A808760002A761 /* QuartzCore.framework */,
 				A3D43A8F15A256A700C2DCDF /* UIKit.framework */,
 				A3D43A9115A256A700C2DCDF /* Foundation.framework */,
 				A3D43A9315A256A700C2DCDF /* CoreGraphics.framework */,
@@ -113,13 +166,19 @@
 		A3D43A9515A256A700C2DCDF /* Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				ACB1223215A804080002A761 /* Asteroids.entitlements */,
 				A3D43A9E15A256A700C2DCDF /* AppDelegate.h */,
 				A3D43A9F15A256A700C2DCDF /* AppDelegate.m */,
 				A3D43AA115A256A700C2DCDF /* MainStoryboard_iPhone.storyboard */,
 				A3D43AA415A256A700C2DCDF /* MainStoryboard_iPad.storyboard */,
 				A3D43AA715A256A700C2DCDF /* ViewController.h */,
 				A3D43AA815A256A700C2DCDF /* ViewController.m */,
+				A3D43AC715A2587D00C2DCDF /* GameView.h */,
+				A3D43AC815A2587D00C2DCDF /* GameView.m */,
+				A3D43AD215A2606200C2DCDF /* UIImage+Additions.h */,
+				A3D43AD315A2606300C2DCDF /* UIImage+Additions.m */,
 				A3D43A9615A256A700C2DCDF /* Supporting Files */,
+				A313E02515A4FCF8004D1C99 /* Model */,
 			);
 			path = Asteroids;
 			sourceTree = "<group>";
@@ -131,6 +190,9 @@
 				A3D43A9815A256A700C2DCDF /* InfoPlist.strings */,
 				A3D43A9B15A256A700C2DCDF /* main.m */,
 				A3D43A9D15A256A700C2DCDF /* Asteroids-Prefix.pch */,
+				A3D43AD015A25BE200C2DCDF /* ship.jpg */,
+				AC2D69C815A91EF50060B368 /* asteroid.png */,
+				AC2D69C615A91D260060B368 /* explosion.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,6 +289,9 @@
 				A3D43A9A15A256A700C2DCDF /* InfoPlist.strings in Resources */,
 				A3D43AA315A256A700C2DCDF /* MainStoryboard_iPhone.storyboard in Resources */,
 				A3D43AA615A256A700C2DCDF /* MainStoryboard_iPad.storyboard in Resources */,
+				A3D43AD115A25BE200C2DCDF /* ship.jpg in Resources */,
+				AC2D69C715A91D260060B368 /* explosion.png in Resources */,
+				AC2D69C915A91EF50060B368 /* asteroid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +329,13 @@
 				A3D43A9C15A256A700C2DCDF /* main.m in Sources */,
 				A3D43AA015A256A700C2DCDF /* AppDelegate.m in Sources */,
 				A3D43AA915A256A700C2DCDF /* ViewController.m in Sources */,
+				A3D43AC915A2587D00C2DCDF /* GameView.m in Sources */,
+				A3D43AD415A2606300C2DCDF /* UIImage+Additions.m in Sources */,
+				A3D43AD715A2621700C2DCDF /* Game.m in Sources */,
+				A3D43ADA15A2658A00C2DCDF /* Asteroid.m in Sources */,
+				A36047B115A2916C0050C6E8 /* Bullet.m in Sources */,
+				A313E02315A4FC78004D1C99 /* GameElement.m in Sources */,
+				AC2D69BC15A8F97D0060B368 /* Ship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,10 +443,13 @@
 		A3D43AC215A256A700C2DCDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Asteroids/Asteroids.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +457,13 @@
 		A3D43AC315A256A700C2DCDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Asteroids/Asteroids.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +521,7 @@
 				A3D43AC315A256A700C2DCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D43AC415A256A700C2DCDF /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +530,7 @@
 				A3D43AC615A256A700C2DCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

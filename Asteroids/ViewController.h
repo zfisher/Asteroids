@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import "Game.h"
 
 @interface ViewController : UIViewController
+
+@property (assign,nonatomic) NSTimer * timer;
+@property (retain) CADisplayLink * displayLink;
+@property (retain) NSDate * lastDraw;
+@property (weak) Game * game;
+@property (retain) CMMotionManager * motionManager;
+@property (strong) CMGyroHandler gyroHandler;
+@property (retain) NSOperationQueue * operationQueue;
+@property (retain) CMAttitude * referenceAttitude;
+@property BOOL gameIsRunning;
+
+- (void) gameViewWasTouched;
+- (void) updateShipOrientation;
 
 @end
